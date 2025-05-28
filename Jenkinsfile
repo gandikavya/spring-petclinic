@@ -9,7 +9,7 @@ pipeline{
 
             }
         }
-        stage("run tests"){
+        stage("Run Unit Tests"){
             steps{
                 sh "./mvnw test"
             }
